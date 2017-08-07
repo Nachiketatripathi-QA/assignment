@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [DataPr]">
+  <test name="Nopackage(failed)">
+    <classes>
+      <class name="com.qait.main.DataProviders">
+        <methods>
+          <include name="sendingMails" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- com.qait.main.DataProviders -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [DataPr] -->

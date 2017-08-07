@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52197" started-at="2017-08-07T10:14:42Z" finished-at="2017-08-07T10:15:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52197" started-at="2017-08-07T10:14:42Z" finished-at="2017-08-07T10:15:34Z">
+      <class name="com.qait.main.DataProviders">
+        <test-method status="PASS" signature="sendingMails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qait.main.DataProviders@5d5eef3d]" name="sendingMails" duration-ms="51498" started-at="2017-08-07T15:44:43Z" data-provider="mailingDetails" finished-at="2017-08-07T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nachiketatripathi@qainfotech.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Experimentation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good Morning!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingMails -->
+        <test-method status="PASS" signature="sendingMails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qait.main.DataProviders@5d5eef3d]" name="sendingMails" duration-ms="51142" started-at="2017-08-07T15:44:43Z" data-provider="mailingDetails" finished-at="2017-08-07T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nachiketatripathi111qait@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing the feature.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello! have a nice day!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingMails -->
+      </class> <!-- com.qait.main.DataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

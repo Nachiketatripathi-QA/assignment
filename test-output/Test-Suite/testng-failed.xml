@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Test-Suite]">
+  <test name="Credentials00(failed)">
+    <parameter name="password" value="Password00"/>
+    <parameter name="userName" value="UserName00"/>
+    <classes>
+      <class name="com.qait.main.DataProviderExample">
+        <methods>
+          <include name="check"/>
+        </methods>
+      </class> <!-- com.qait.main.DataProviderExample -->
+    </classes>
+  </test> <!-- Credentials00(failed) -->
+  <test name="Credentials01(failed)">
+    <parameter name="password" value="Password01"/>
+    <parameter name="userName" value="UserName01"/>
+    <classes>
+      <class name="com.qait.main.DataProviderExample">
+        <methods>
+          <include name="check"/>
+        </methods>
+      </class> <!-- com.qait.main.DataProviderExample -->
+    </classes>
+  </test> <!-- Credentials01(failed) -->
+  <test name="Credentials02(failed)">
+    <parameter name="password" value="Password02"/>
+    <parameter name="userName" value="UserName02"/>
+    <classes>
+      <class name="com.qait.main.DataProviderExample">
+        <methods>
+          <include name="check"/>
+        </methods>
+      </class> <!-- com.qait.main.DataProviderExample -->
+    </classes>
+  </test> <!-- Credentials02(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->
